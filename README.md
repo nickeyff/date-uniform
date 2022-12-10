@@ -1,8 +1,8 @@
 # Date-uniform
 ## 功能：输入日期文本（中、英文形式的字符串），以标准的日期格式返回
 ## 使用方法：
-  * from date_uniform.utils import date_format
-  * output = date_format(string_text)
+from date_uniform.utils import date_format  
+output = date_format(string_text)
 ## 示例：
 * input:15. MARCH. 2021, output:2021-03-15 00:00:00
 * input:2-DEC-21, output:2021-12-02 00:00:00
